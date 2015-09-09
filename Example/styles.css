@@ -164,4 +164,226 @@ body{
 	color:#989898;
 	font-style: normal;
 }
+.type-main{
+	
+}
+.type{
+	width: 30%;
+	border: 2px solid #445162;
+	float: left;
+	margin-right: 4%;
+	border-radius: 10px;
+	background: #445162;
+}
+.main5 .type .type-title{
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+.main5 .price{
+	width: 100%;
+	height: 65px;
+	color:#445162;
+	font-size: 40px;
+	text-align: center;
+	line-height: 65px;
+	background: white;
+}
+.main5 ol{
+	margin: 20px;
+	font-size: 14px;
+	color: white;
+	line-height: 24px;
+}
+.main5 a{
+	display: block;
+	text-align: center;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	color: #445162;
+	font-size: 18px;
+	background: white;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+.standart{
+	min-height: 310px;
+}
+.premium{
+	min-height: 410px;
+}
+.lux{
+	min-height: 510px;
+	margin-right: 0px;
+}
+.contacts{
+	background: #445162;
+	margin-top: 50px;
+}
+.contacts .title h2{
+	color: white;
+}
+.form{
+	float: left;
+	width: 60%;
+	text-align: center;
+	margin-left: 100px;
+}
+[type~="text"]{
+	padding: 10px;
+	width: 480px;
+	height: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #445162;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+[type~="email"]{
+	padding: 10px;
+	width: 480px;
+	height: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #445162;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+textarea{
+	padding: 10px;
+	width: 480px;
+	height: 150px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #445162;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+[type~="submit"]{
+	width: 140px;
+	height: 40px;
+	color: #445162;
+	font-size: 16px;
+	font-weight: 900;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.soc{
+	float: left;
+	overflow: hidden;
+	font-size: 16px;
+	
+	width: 25%;
+}
+.phone li{
+	margin-bottom: 20px;
+}
+.phone li a{
+	color: white;
+	font-weight: 700;
+	position: relative;
+	display: block;
+	height: 35px;
+	width: 200px;
+	margin-left: 50px;
+}
+.phone .skype:before{
+	display: inline-block;
+	background: url('img/icon/skype.png') no-repeat;
+	content: "";
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	bottom: 10px;
+	left: -35px;
+}
+.phone .icq:before{
+	display: inline-block;
+	background: url('img/icon/isq.png') no-repeat;
+	content: "";
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	bottom: 10px;
+	left: -35px;
+}
+.phone .agent:before{
+	display: inline-block;
+	background: url('img/icon/agent.png') no-repeat;
+	content: "";
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	bottom: 5px;
+	left: -35px;
+}
+.phone .phone-btn:before{
+	display: inline-block;
+	background: url('img/icon/phone.png') no-repeat;
+	content: "";
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	bottom: 10px;
+	left: -35px;
+}
+.icons li{
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+.icons li a{
+	display: block;
+	width: 45px;
+	height: 45px;
+	position: relative;
+}
+.icons .tw:after{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	background: url('img/icon/sprite.png') no-repeat 0 2px;
+	content: "";
+}
+.icons .fb:after{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	background: url('img/icon/sprite.png') no-repeat -48px 2px;
+	content: "";
+}
+.icons .in:after{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	background: url('img/icon/sprite.png') no-repeat -96px 2px;
+	content: "";
+}
+.icons .gg:after{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	background: url('img/icon/sprite.png') no-repeat -148px 2px;
+	content: "";
+}
+.icons .yt:after{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	background: url('img/icon/sprite.png') no-repeat -196px 2px;
+	content: "";
+}
+.footer{
+	background: #f5f5f5;
+	text-align: center;
+}
+.footer p{
+	color: #445162;
+	font-size: 12px;
+	line-height: 24px;
+}
 
